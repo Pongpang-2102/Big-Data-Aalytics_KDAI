@@ -14,8 +14,7 @@ CREATE TABLE POST(
        likes int ,
        post_by text
                  );
-                 
--- 1.2 insert relavant post information to table post --
+
                  
 insert into POST VALUES
     ("P001_th"    ,"[News] PETA วอนขอให้เหล่าชาวเกมที่เล่น Hogwarts Legacy ปฏิบัติกับสัตว์มหัศจรรย์ด้วยความเห็นอกเห็นใจ " , 
@@ -37,10 +36,10 @@ insert into POST VALUES
                    "Microsoft Thailand"
      );
 
--- 1.3 and then , we must to try to show table POST that we've just created , --
+-- 1.2 and then , we must to try to show table POST that we've just created , --
 select * from POST ;
 
--- 1.4 create & insert table TAG
+-- 1.3 create & insert table TAG
 
 CREATE TABLE TAG_LIST(
        _id text not null UNIQUE PRimary KEY,
@@ -48,7 +47,6 @@ CREATE TABLE TAG_LIST(
        tag text
                  );
                  
--- 1.5  insert relavant post information to table TAG_LIST --
 insert into TAG_LIST VALUES 
     ( "th_tag001" , "P003_th" , "Technology") ,
     ( "th_tag002" , "P003_th" , "DMWL") ,
@@ -60,10 +58,10 @@ insert into TAG_LIST VALUES
     ( "th_tag008" , "P002_th" , "German") ,
     ( "th_tag009" , "P002_th" , "DAAD") ;
     
--- 1.6 and then , we must to try to show all parts of table TAG_LIST that we've just created , --
+-- 1.4 and then , we must to try to show all parts of table TAG_LIST that we've just created , --
 select * from TAG_LIST;
 
--- 1.7  insert relavant post information to table COMMENT --
+-- 1.5 create & insert table COMMENT --
 CREATE TABLE COMMENT(
        comment_id text not null UNIQUE PRimary KEY,
        post_id text ,
@@ -72,7 +70,64 @@ CREATE TABLE COMMENT(
        date_time text ,
        likes_number int
                  );
-                 
+
+insert into COMMENT VALUES
+   ( "CMT001_th" ,  "P001_th"    ,
+                   "Patioib Noonark" , 
+                   "น่าจะจัด Peta mode ไปอารมเหมือน Hard core Mode 1.ห้ามขี่สัตว์ 2.ห้ามใช้ยาจากสัตว์ 3.ห้ามใช้อุปกรณ์จากสัตว์ บันเทิง 5555555 ",
+                   "2022-02-27 22:15:00.000" ,
+                   40   ) ,
+   ( "CMT002_th" ,  "P001_th"    ,
+                   "Throne West" , 
+                   "ดูทรงแล้วน่าจะอยากได้พื้นที่สื่อมากกว่า ก็นะมันก็คงรู้แหละว่าทำงี้แล้วสื่อให้แสงให้พื้นที่มัน เดี๋ยวเกมหน้าที่มีสัตว์ก็คงโผล่มาอีก",
+                   "2022-02-27 22:07:00.000" ,
+                    45   ) ,
+   ( "CMT003_th" ,  "P001_th"    ,
+                   "Nattanun Kaewplengsrisakul" , 
+                   "มันฆ่าไม่ได้ แต่เราสามารถใช้คาถาDescendoให้ล้มลงได้โคตรรุนแรง5555",
+                   "2022-02-27 23:03:00.000" ,
+                    5   ) ,
+   ( "CMT004_th" ,  "P001_th"    ,
+                   "Rapinr Wattana" , 
+                   "PETA เห็นคลิปกะหล่ำกัดแมงมุมยัง? 555",
+                   "2022-02-27 22:40:00.000" ,
+                    13   ) ,
+    ( "CMT005_th" ,  "P001_th"    ,
+                   "Kittipong Pornlert" , 
+                   "เขาลืมไปใช่ไหมว่าแกนกลางไม้กายสิทธิ์ทำจากอะไรบ้าง...ดีไม่บอกว่าขอให้ทุกคนที่เล่นเกมนี้หลีกเลี่ยงการใช้ไม้กายสิทธิ์ด้วย",
+                   "2022-02-27 22:38:00.000" ,
+                   27   ) ,
+    ( "CMT006_th" ,  "P001_th"    ,
+                   "Ai Oat" , 
+                   "เจอมอนฮัน อกมีงไม่แตกตายเลยหรอ",
+                   "2022-02-28 13:33:00.000" ,
+                   4   ) ,
+    ( "CMT007_th" , "P002_th"    ,
+                   "Phicha Yk" , 
+                   "Ja Thidarat Jaea Tipagorn Papatson Yok Looknam Temrat Yokk ApinYa",
+                   "2022-02-28 05:32:00.000" ,
+                   1   ) ,
+    ( "CMT008_th" , "P002_th"    ,
+                   "Tiwgnoran Top" , 
+                   "เงื่อนไขนี่เข้าอันใดอันนึงก็ได้ใช่ไหมครับ",
+                   "2022-02-28 07:45:00.000" ,
+                   0   ) 
+                   
+   -- 1.6  use Full join to combine all table together
+   
+select 
+   P._id , P.title ,P.desciption ,P.url , P.likes , P.post_by,
+   C.by_user,C.message,C.date_time , C.likes_number,
+   T.tag
+   
+FROM POST  P
+full join COMMENT C on C.comment_id = P._id
+Full join TAG_LIST T on T.post_id = P._id
+order by P.likes DESC;
+
+-- after that , go to observe at MongoDB to compare with SQL result
+
+   
 
 
 
