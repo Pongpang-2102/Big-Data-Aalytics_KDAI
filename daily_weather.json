@@ -1,0 +1,241 @@
+[{
+  "_id": {
+    "$oid": "63fcda6af73794172fbd79ac"
+  },
+  "metadata": {
+    "sensorId": 5578,
+    "type": "temperature",
+    "type_2": "air_quality_index",
+    "type_3": "rainfall_amount",
+    "type_4": "windspeed"
+  },
+  "timestamp": {
+    "$date": {
+      "$numberLong": "1621296000000"
+    }
+  },
+  "temp": 12,
+  "aqi_pm2_5": 200.5,
+  "rainfall_mm": 9.6,
+  "windspeed_knot": 3.1
+},{
+  "_id": {
+    "$oid": "63fcda6af73794172fbd79ad"
+  },
+  "metadata": {
+    "sensorId": 5578,
+    "type": "temperature",
+    "type_2": "air_quality_index",
+    "type_3": "rainfall_amount",
+    "type_4": "windspeed"
+  },
+  "timestamp": {
+    "$date": {
+      "$numberLong": "1621310400000"
+    }
+  },
+  "temp": 11,
+  "aqi_pm2_5": 200.5,
+  "rainfall_mm": 9.6,
+  "windspeed_knot": 3.1
+},{
+  "_id": {
+    "$oid": "63fcda6af73794172fbd79ae"
+  },
+  "metadata": {
+    "sensorId": 5578,
+    "type": "temperature",
+    "type_2": "air_quality_index",
+    "type_3": "rainfall_amount",
+    "type_4": "windspeed"
+  },
+  "timestamp": {
+    "$date": {
+      "$numberLong": "1621324800000"
+    }
+  },
+  "temp": 11,
+  "aqi_pm2_5": 200.5,
+  "rainfall_mm": 9.6,
+  "windspeed_knot": 3.1
+},{
+  "_id": {
+    "$oid": "63fcda6af73794172fbd79af"
+  },
+  "metadata": {
+    "sensorId": 5578,
+    "type": "temperature",
+    "type_2": "air_quality_index",
+    "type_3": "rainfall_amount",
+    "type_4": "windspeed"
+  },
+  "timestamp": {
+    "$date": {
+      "$numberLong": "1621339200000"
+    }
+  },
+  "temp": 12,
+  "aqi_pm2_5": 200.5,
+  "rainfall_mm": 9.6,
+  "windspeed_knot": 3.1
+},{
+  "_id": {
+    "$oid": "63fcda6af73794172fbd79b0"
+  },
+  "metadata": {
+    "sensorId": 5578,
+    "type": "temperature",
+    "type_2": "air_quality_index",
+    "type_3": "rainfall_amount",
+    "type_4": "windspeed"
+  },
+  "timestamp": {
+    "$date": {
+      "$numberLong": "1621353600000"
+    }
+  },
+  "temp": 16,
+  "aqi_pm2_5": 200.5,
+  "rainfall_mm": 9.6,
+  "windspeed_knot": 3.1
+},{
+  "_id": {
+    "$oid": "63fcda6af73794172fbd79b1"
+  },
+  "metadata": {
+    "sensorId": 5578,
+    "type": "temperature",
+    "type_2": "air_quality_index",
+    "type_3": "rainfall_amount",
+    "type_4": "windspeed"
+  },
+  "timestamp": {
+    "$date": {
+      "$numberLong": "1621368000000"
+    }
+  },
+  "temp": 15,
+  "aqi_pm2_5": 200.5,
+  "rainfall_mm": 9.6,
+  "windspeed_knot": 3.1
+},{
+  "_id": {
+    "$oid": "63fcda6af73794172fbd79b2"
+  },
+  "metadata": {
+    "sensorId": 5578,
+    "type": "temperature",
+    "type_2": "air_quality_index",
+    "type_3": "rainfall_amount",
+    "type_4": "windspeed"
+  },
+  "timestamp": {
+    "$date": {
+      "$numberLong": "1621382400000"
+    }
+  },
+  "temp": 13,
+  "aqi_pm2_5": 200.5,
+  "rainfall_mm": 9.6,
+  "windspeed_knot": 3.1
+},{
+  "_id": {
+    "$oid": "63fcda6af73794172fbd79b3"
+  },
+  "metadata": {
+    "sensorId": 5578,
+    "type": "temperature",
+    "type_2": "air_quality_index",
+    "type_3": "rainfall_amount",
+    "type_4": "windspeed"
+  },
+  "timestamp": {
+    "$date": {
+      "$numberLong": "1621396800000"
+    }
+  },
+  "temp": 12,
+  "aqi_pm2_5": 200.5,
+  "rainfall_mm": 9.6,
+  "windspeed_knot": 3.1
+},{
+  "_id": {
+    "$oid": "63fcda6af73794172fbd79b4"
+  },
+  "metadata": {
+    "sensorId": 5578,
+    "type": "temperature",
+    "type_2": "air_quality_index",
+    "type_3": "rainfall_amount",
+    "type_4": "windspeed"
+  },
+  "timestamp": {
+    "$date": {
+      "$numberLong": "1621411200000"
+    }
+  },
+  "temp": 11,
+  "aqi_pm2_5": 200.5,
+  "rainfall_mm": 9.6,
+  "windspeed_knot": 3.1
+},{
+  "_id": {
+    "$oid": "63fcda6af73794172fbd79b5"
+  },
+  "metadata": {
+    "sensorId": 5578,
+    "type": "temperature",
+    "type_2": "air_quality_index",
+    "type_3": "rainfall_amount",
+    "type_4": "windspeed"
+  },
+  "timestamp": {
+    "$date": {
+      "$numberLong": "1621425600000"
+    }
+  },
+  "temp": 12,
+  "aqi_pm2_5": 200.5,
+  "rainfall_mm": 9.6,
+  "windspeed_knot": 3.1
+},{
+  "_id": {
+    "$oid": "63fcda6af73794172fbd79b6"
+  },
+  "metadata": {
+    "sensorId": 5578,
+    "type": "temperature",
+    "type_2": "air_quality_index",
+    "type_3": "rainfall_amount",
+    "type_4": "windspeed"
+  },
+  "timestamp": {
+    "$date": {
+      "$numberLong": "1621440000000"
+    }
+  },
+  "temp": 17,
+  "aqi_pm2_5": 200.5,
+  "rainfall_mm": 9.6,
+  "windspeed_knot": 3.1
+},{
+  "_id": {
+    "$oid": "63fcda6af73794172fbd79b7"
+  },
+  "metadata": {
+    "sensorId": 5578,
+    "type": "temperature",
+    "type_2": "air_quality_index",
+    "type_3": "rainfall_amount",
+    "type_4": "windspeed"
+  },
+  "timestamp": {
+    "$date": {
+      "$numberLong": "1621454400000"
+    }
+  },
+  "temp": 12,
+  "aqi_pm2_5": 200.5,
+  "rainfall_mm": 9.6,
+  "windspeed_knot": 3.1
+}]
