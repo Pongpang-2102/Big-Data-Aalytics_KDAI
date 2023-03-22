@@ -5,8 +5,8 @@ This program includeding :
    - Basic Hadoop
    - MongoDB Database
    - Data Visualization : Please see detail from link below
-     part 1 : Power BI : https://app.powerbi.com/groups/me/reports/2d43a268-cb09-4b42-b2cb-457b0fe6ba34/ReportSection
-     part 2 : Looker Studio : https://lookerstudio.google.com/reporting/a0505337-145d-483c-a6bd-a3681e164ef6/page/p_iw3c4c6b4c?s=qqVoxe2fSuU
+     - part 1 : Power BI : https://app.powerbi.com/groups/me/reports/2d43a268-cb09-4b42-b2cb-457b0fe6ba34/ReportSection
+     - part 2 : Looker Studio : https://lookerstudio.google.com/reporting/a0505337-145d-483c-a6bd-a3681e164ef6/page/p_iw3c4c6b4c?s=qqVoxe2fSuU
  
  - Machine Learning for Big Data Analytics
    and so on
