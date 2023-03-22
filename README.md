@@ -1,7 +1,7 @@
 # Big-Data-Aalytics_KDAI
 
 - This Repository stores any Project & Assignment from Course : Big Data Analytics from KDAI Curriculum
-This program includeding :
+- This program includeding :
    - Basic Hadoop
    - MongoDB Database
    - Data Visualization : Please see detail from link below
