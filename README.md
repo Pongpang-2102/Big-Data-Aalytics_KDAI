@@ -4,4 +4,6 @@
 This program included :
    - MongoDB Database
    - Data Visualization via Power BI & Looker Studio
-   - Basic HADOOP
+   - Basic HADOOP and so on
+   
+   
